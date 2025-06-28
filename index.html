@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QC Finder</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Paste Product Link</h1>
+    <form action="#" method="GET">
+        <input type="text" name="product_link" placeholder="Paste 1688 / Weidian / Taobao link" size="50">
+        <button type="submit">Search QC</button>
+    </form>
+    <hr>
+    <h2>Or Upload QC Photo</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="qcphoto">
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
